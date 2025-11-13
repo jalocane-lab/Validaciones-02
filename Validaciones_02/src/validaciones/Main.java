@@ -44,7 +44,7 @@ public class Main {
 		while (true) {
 			System.out.println("-Ingrese la contraseña (Debe contener al menos una letra mayúscula, una minúscula, un número y al menos 8 caracteres): ");
 			nuevoUsuario.contraseña = sc.nextLine();		
-			if (!nuevoUsuario.contraseña.matches("^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%]).{8,}$")) {
+			if (nuevoUsuario.contraseña.matches("^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%]).{8,}$")) {
 				System.out.println("---------------------------------------");
 				System.out.println(" --- Contraseña ingresada correctamente ---"  );
 				System.out.println("---------------------------------------");

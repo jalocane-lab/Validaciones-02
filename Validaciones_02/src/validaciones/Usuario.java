@@ -37,7 +37,7 @@ public class Usuario {
 	}
 	
 	public void mostrarInfo() {
-		System.out.println("Nombre de usuario: " + nombre + " Correo electronico: " + correo);
+		System.out.println("Nombre de usuario: " + nombre + " --> Correo electronico: " + correo);
 	}
 
 }
